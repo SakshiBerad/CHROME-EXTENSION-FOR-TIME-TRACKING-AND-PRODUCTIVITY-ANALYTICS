@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Time Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 6px;
+      text-align: left;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h2>Website Time Tracker</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Website</th>
+        <th>Time Spent (seconds)</th>
+      </tr>
+    </thead>
+    <tbody id="time-table"></tbody>
+  </table>
+
+  <script src="popup.js"></script>
+</body>
+</html>
